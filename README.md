@@ -4,7 +4,7 @@ The power supply was initially to be all on one pcb ( based on smartAP )but due 
 
 The entire project uses 2mm pitch based ph connectors.
 
-Pcb design learnings
+## Pcb design learnings
 No thermals in high current pads
 Avoid choke points ( traces that make current flow path longer)
 Switching loops of power converters have to be as small as possible
@@ -14,9 +14,9 @@ Using keepots to avoid traces being to close
 Appropriate pad sizes with vias for current conduction
 
 
-The project includes three pcbs:
+# The project includes three pcbs:
 
-Current sensing pcb  
+## Current sensing pcb  
 This pcb is based on the allegro asc772 current sensor
 The 400 amp variant was avoided due to unavailability
 The 200 amp variant was chosen
@@ -24,8 +24,7 @@ The 200 amp variant was chosen
 Output is a analog value of 5v
 The board can also measure voltage levels
 
-
-Power distribution pcb
+## Power distribution pcb
 
 A simple distributor pcb which can have upto 12 motors:
 2 Oz thickness for more current
@@ -33,10 +32,7 @@ Exposed copper for heat sink
 Voltage sense capability using the voltage from balance connector
 Mosfets to shut down current flow when required
 
-
-
-
-Power HUB
+## Power HUB
 
 This pcb incorporates the buck and boost modules
 1x5v buck ( df13)
