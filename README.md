@@ -5,16 +5,16 @@ The power supply was initially to be all on one pcb ( based on smartAP )but due 
 The entire project uses 2mm pitch based ph connectors.
 
 ## Pcb design learnings
-No thermals in high current pads
-Avoid choke points ( traces that make current flow path longer)
-Switching loops of power converters have to be as small as possible
-output trace thickness
-Placement of decoupling caps
-Using keepots to avoid traces being to close
-Appropriate pad sizes with vias for current conduction
+- No thermals in high current pads
+- Avoid choke points ( traces that make current flow path longer)
+- Switching loops of power converters have to be as small as possible
+- output trace thickness
+- Placement of decoupling caps
+- Using keepots to avoid traces being to close
+- Appropriate pad sizes with vias for current conduction
 
 
-# The project includes three pcbs:
+**The project includes three pcbs:**
 
 ## Current sensing pcb  
 This pcb is based on the allegro asc772 current sensor
@@ -23,6 +23,8 @@ The 200 amp variant was chosen
 2 boards will be used in order to measure separate packs in parallel
 Output is a analog value of 5v
 The board can also measure voltage levels
+
+![Curent Sense PCB](Curent Sense/top.png)
 
 ## Power distribution pcb
 
