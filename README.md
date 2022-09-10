@@ -24,7 +24,7 @@ The 200 amp variant was chosen
 Output is a analog value of 5v
 The board can also measure voltage levels
 
-![Curent Sense PCB](Curent Sense/top.png)
+![Curent Sense PCB](Curent_Sense/top.png)
 
 ## Power distribution pcb
 
